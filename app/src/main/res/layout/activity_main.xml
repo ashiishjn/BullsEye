@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/page"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number_input"
+        android:inputType = "number"
+        android:layout_width="150dp"
+        android:layout_marginTop="40dp"
+        android:paddingVertical="8dp"
+        android:textAlignment="center"
+        android:hint="Enter a Number"
+        android:visibility="invisible"
+        android:background="@drawable/edittextdesign"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:background="@drawable/button_design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:onClick="Tap"
+        android:text="Check"/>
+</LinearLayout>
